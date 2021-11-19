@@ -1,0 +1,53 @@
+body.login_page{
+    background: url('/static/media/login_background.jpg') no-repeat;
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: overlay;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+#app{
+    width: 100%;
+}
+
+.login_container{
+    color: #fff;
+}
+.login_container legend{
+    margin-top: 50px;
+}
+.login_container .logo{
+    width: 100%;
+}
+.login_container button{
+    background: #0F6A7A;
+    border: #0F6A7A;
+}
+.login_container button:hover, .login_container button:active, .login_container button:focus{
+    background: #093d46;
+    outline-color: #093d46;
+}
+
+
+.navbar{
+    background: #3c3c3c !important;
+}
+.navbar, .navbar-brand{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.navbar-brand img{
+    height: 50px;
+}
+ul.navbar-nav li a:hover{
+    background: #515151;
+}
+ul.navbar-nav .nav-link{
+    padding-left: .75rem;
+    padding-right: .75rem;
+}
+.navbar .navbar-nav .nav-link{
+    font-size: 13px;
+    font-weight: lighter;
+}
